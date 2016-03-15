@@ -15,6 +15,8 @@
 		47BE6AA11C9818CC00E222C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BE6A9F1C9818CC00E222C8 /* LaunchScreen.storyboard */; };
 		47BE6AAC1C9818CC00E222C8 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE6AAB1C9818CC00E222C8 /* ExampleTests.m */; };
 		47BE6AB71C9818CC00E222C8 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE6AB61C9818CC00E222C8 /* ExampleUITests.m */; };
+		47BE6AC71C9818E000E222C8 /* LoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE6AC61C9818E000E222C8 /* LoopScrollView.m */; };
+		47BE6ACA1C9819E300E222C8 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE6AC91C9819E300E222C8 /* UIViewAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		47BE6AB21C9818CC00E222C8 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BE6AB61C9818CC00E222C8 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		47BE6AB81C9818CC00E222C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BE6AC51C9818E000E222C8 /* LoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopScrollView.h; sourceTree = "<group>"; };
+		47BE6AC61C9818E000E222C8 /* LoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopScrollView.m; sourceTree = "<group>"; };
+		47BE6AC81C9819E300E222C8 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		47BE6AC91C9819E300E222C8 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		47BE6A901C9818CC00E222C8 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				47BE6AC41C9818D600E222C8 /* Source */,
 				47BE6A941C9818CC00E222C8 /* AppDelegate.h */,
 				47BE6A951C9818CC00E222C8 /* AppDelegate.m */,
 				47BE6A971C9818CC00E222C8 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				47BE6AB81C9818CC00E222C8 /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		47BE6AC41C9818D600E222C8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				47BE6AC81C9819E300E222C8 /* UIViewAdditions.h */,
+				47BE6AC91C9819E300E222C8 /* UIViewAdditions.m */,
+				47BE6AC51C9818E000E222C8 /* LoopScrollView.h */,
+				47BE6AC61C9818E000E222C8 /* LoopScrollView.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47BE6A991C9818CC00E222C8 /* ViewController.m in Sources */,
+				47BE6ACA1C9819E300E222C8 /* UIViewAdditions.m in Sources */,
 				47BE6A961C9818CC00E222C8 /* AppDelegate.m in Sources */,
 				47BE6A931C9818CC00E222C8 /* main.m in Sources */,
+				47BE6AC71C9818E000E222C8 /* LoopScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
