@@ -41,9 +41,9 @@
 
 - (BOOL)shouldCircleLayout {
     if (LoopScrollDirectionHorizontal ==  self.scrollDirection) {
-        return [self minContentSize] > self.width;
+        return self.contentViews.count >= 3 && [self minContentSize] > self.width;
     } else {
-        return [self minContentSize] > self.height;
+        return self.contentViews.count >= 3 && [self minContentSize] > self.height;
     }
 }
 
